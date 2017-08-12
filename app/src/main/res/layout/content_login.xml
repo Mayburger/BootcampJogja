@@ -1,0 +1,79 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    tools:showIn="@layout/activity_login"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen_24dp"
+        android:paddingRight="@dimen/dimen_24dp"
+        android:paddingTop="@dimen/dimen_40dp">
+
+        <TextView
+            android:id="@+id/tvTitleLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/wisata"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/text_size_64sp" />
+
+        <!-- Email Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_8dp"
+            android:id="@+id/tilUsername"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:textColorHint="@android:color/white"
+            android:theme="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorWhite" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Password Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_8dp"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:id="@+id/tilPassword"
+            android:textColorHint="@android:color/white"
+            android:theme="@style/TextLabel">
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:textColor="@color/colorWhite" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_24dp"
+            android:onClick="btnSubmitOnClick"
+            android:layout_marginTop="@dimen/dimen_24dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/submit"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

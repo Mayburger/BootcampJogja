@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_8dp">8dp</dimen>
+    <dimen name="dimen_40dp">40dp</dimen>
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_64sp">64sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimen_24dp">24dp</dimen>
+    <dimen name="dimen_splash">200dp</dimen>
+    <dimen name="text_size_40sp">40sp</dimen>
+    <dimen name="text_size_50sp">50sp</dimen>
+    <dimen name="dimen_error_image">150dp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="dimen_12dp">12dp</dimen>
+    <dimen name="dimen_18dp">18dp</dimen>
+    <dimen name="dimen_20dp">20dp</dimen>
+</resources>
